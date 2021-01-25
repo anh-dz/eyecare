@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>EyeCare</title>
+    <meta name="description" content="EyeCare" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/images/eyecare.png">
+    <script>document.documentElement.className = 'js';</script>
+</head>
+
+<body>
+    <svg class="hidden">
+        <symbol id="facebook" viewBox="0 0 10 18" fill="currentColor">
+            <path d="M7.428,3.822
+            c0.484-0.017,0.968-0.004,1.454-0.005c0.059,0,0.119,0,0.199,0v-2.52c-0.259-0.025-0.529-0.063-0.8-0.076
+            C7.784,1.2,7.287,1.174,6.789,1.186C6.03,1.202,5.312,1.387,4.685,1.836C3.965,2.355,3.569,3.082,3.419,3.94
+            C3.356,4.294,3.341,4.661,3.331,5.021C3.317,5.586,3.329,6.152,3.329,6.717v0.212h-2.41v2.814h2.396v7.074h2.93V9.755h2.389
+            c0.122-0.937,0.242-1.863,0.367-2.828c-0.192,0-0.365,0-0.537,0c-0.68,0.003-2.238,0-2.238,0s0.006-1.395,0.022-2
+            C6.271,4.098,6.764,3.845,7.428,3.822z"></path>
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 18 18" fill="currentColor">
+            <path d="M5.857,12.674
+                c-1.706-0.061-2.772-1.283-3.055-2.279c0.475,0.092,0.942,0.072,1.407-0.041c0.012-0.004,0.023-0.012,0.047-0.021
+                c-0.924-0.215-1.637-0.71-2.132-1.507C1.795,8.296,1.639,7.717,1.643,7.08c0.462,0.246,0.943,0.384,1.461,0.397
+                c-0.694-0.5-1.16-1.154-1.351-1.991C1.564,4.651,1.686,3.857,2.106,3.108C3.883,5.202,6.132,6.35,8.876,6.539
+                c-0.02-0.13-0.04-0.244-0.053-0.359C8.732,5.407,8.886,4.687,9.303,4.033c0.522-0.819,1.269-1.328,2.226-1.484
+                c1.104-0.181,2.068,0.134,2.875,0.915c0.053,0.053,0.098,0.069,0.174,0.053c0.676-0.146,1.311-0.39,1.91-0.734
+                c0.014-0.009,0.029-0.017,0.043-0.022c0.004-0.002,0.008-0.002,0.021-0.002c-0.26,0.764-0.732,1.352-1.404,1.786
+                c0.635-0.069,1.242-0.238,1.828-0.491c0.004,0.005,0.008,0.01,0.012,0.015c-0.125,0.164-0.246,0.332-0.377,0.492
+                c-0.348,0.43-0.748,0.807-1.193,1.134c-0.037,0.028-0.055,0.055-0.055,0.104c0.02,0.487,0,0.974-0.061,1.458
+                c-0.127,1.02-0.41,1.993-0.846,2.923c-0.449,0.959-1.037,1.826-1.775,2.588c-1.25,1.293-2.756,2.127-4.511,2.514
+                c-0.602,0.133-1.212,0.199-1.828,0.217c-1.894,0.057-3.644-0.414-5.254-1.41c-0.02-0.012-0.041-0.025-0.077-0.049
+                c1.146,0.123,2.235-0.023,3.284-0.453C4.852,13.355,5.368,13.057,5.857,12.674z"></path>
+        </symbol>
+        <symbol id="linkedin" viewBox="0 0 18 18" fill="currentColor">
+            <path d="M1.979,6.566h3.013v9.678H1.979V6.566z M3.485,1.756
+                c0.963,0,1.744,0.782,1.744,1.743c0,0.963-0.781,1.746-1.744,1.746c-0.966,0-1.746-0.783-1.746-1.746
+                C1.739,2.538,2.52,1.756,3.485,1.756"></path>
+            <path d="M6.879,6.566h2.886V7.89h0.04c0.401-0.762,1.384-1.563,2.849-1.563
+                c3.045,0,3.607,2.003,3.607,4.609v5.309h-3.007v-4.705c0-1.123-0.022-2.566-1.563-2.566c-1.566,0-1.805,1.222-1.805,2.483v4.788
+                H6.879V6.566z"></path>
+        </symbol>
+        <symbol id="instagram" viewBox="0 0 18 18" fill="currentColor">
+            <path d="M13.896,1.875H4.104
+                c-1.23,0-2.229,0.998-2.229,2.229v9.792c0,1.23,0.998,2.229,2.229,2.229h9.793c1.23,0,2.229-0.998,2.229-2.229V4.104
+                C16.125,2.874,15.127,1.875,13.896,1.875z M12.051,3.84c0-0.219,0.178-0.396,0.396-0.396h1.721c0.221,0,0.398,0.178,0.398,0.396
+                v1.722c0,0.219-0.178,0.396-0.398,0.396h-1.721c-0.219,0-0.396-0.178-0.396-0.396V3.84z M6.373,7.972
+                C6.785,6.922,7.807,6.179,9,6.179s2.215,0.743,2.627,1.793C11.752,8.291,11.822,8.637,11.822,9c0,1.556-1.266,2.822-2.822,2.822
+                c-1.555,0-2.822-1.266-2.822-2.822C6.178,8.637,6.248,8.291,6.373,7.972z M14.615,13.896c0,0.396-0.322,0.719-0.719,0.719H4.104
+                c-0.396,0-0.719-0.322-0.719-0.719V7.972h1.406C4.711,8.301,4.67,8.645,4.67,9c0,2.392,1.938,4.332,4.33,4.332S13.33,11.393,13.33,9
+                c0-0.355-0.041-0.699-0.123-1.028h1.408V13.896z"></path>
+        </symbol>
+    </svg>
+    <main>
+        <div class="intro">
+            <video poster="assets/images/video-poster.jpg" playsinline autoplay muted loop>
+                <source src="assets/videos/intro-video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="page">
+            <div class="page-body">
+                <div class="page-body-column">
+                    <div class="logo-wrapper">
+                        <img src="assets/images/eyecare.png" alt="Lime Creative Logo" width="323" height="132" />
+                    </div>
+                </div>
+                <div class="page-body-column">
+                    <div class="soon-wrapper">
+                        <span>EyeCare</span>
+                    </div>
+                    <div class="typewriter-content-wrapper">
+                        <span class="typewriter-content"></span>
+                    </div>
+                    <div class="content">
+                        <p>"Đôi mắt là cửa sổ tâm hồn", thế nhưng vì nhiều mục đích như làm việc, tra cứu, học tập mà bạn phải ngồi hàng giờ liền trên máy vi tính. Việc này tác động nhiều đến đôi mắt của bạn, thậm chí gây nguy hiểm cho mắt. Vậy làm thế nào để bảo vệ, ngăn ngừa, giảm mỏi mắt khi dùng máy tính?
+Với những người dùng máy vi tính, đặc biệt là dân văn phòng thì tình trạng nhức mỏi mắt là vấn đề thường xuyên xảy ra. Nhiều nghiên cứu chỉ ra tới 50–90% người dùng máy vi tính bị hiện tượng mỏi mắt và các triệu chứng thị giác khó chịu khác.<br> Từ những lý do trên, EyeCare sẽ ra đời nhằm khắc phục những hậu quả do màn hình máy tính và tác động của xã hội 4.0. EyeCare hứa hẹn sẽ bảo vệ cửa sổ tâm hồn, giúp cho cửa sổ tâm hồn của bạn luôn được trong sạch...<br>Hãy đợi chờ chúng tôi...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="page-footer">
+                <div class="contact-wrapper">
+                    <a href="mailto:nmnanh1235@gmail.com class=" class="contact-link">Liên hệ</a>
+                    <a href="https://chuyendanit.blogspot.com/" class="contact-link">Chuyện dân IT</a>
+                </div>
+                <div class="location-wrapper">
+                    <a href="https://www.google.gr/maps/place/Lime+Creative/@35.5128906,24.0129583,17z/data=!3m1!4b1!4m5!3m4!1s0x149c7d97d311e7d3:0xacb340d6b6fe95ea!8m2!3d35.5128863!4d24.015147?hl=en"
+                        target="_blank" rel="noopener" class="location-link">
+                        <span class="address">Cảm ơn vì đã đồng hành cùng chúng tôi</span>
+                    </a>
+                    <br/>
+                    <a href="tel:00302821072116">@ggux2021</a>
+                </div>
+                <div class="social-wrapper">
+                    <a href="https://www.facebook.com/minkalexvina/" class="social-link" target="_blank" rel="noopener">
+                        <svg class="icon icon-facebook">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/minkalexvina/" class="social-link" target="_blank" rel="noopener">
+                        <svg class="icon icon-instagram">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/minkvina" class="social-link" target="_blank" rel="noopener">
+                        <svg class="icon icon-twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/bundle.js"></script>
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-48102991-1', 'limecreative.gr');
+            ga('send', 'pageview');
+        </script>
+    </main>
+</body>
+
+</html>
