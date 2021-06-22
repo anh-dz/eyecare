@@ -96,7 +96,7 @@ var _typed2 = _interopRequireDefault(_typed);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var typed = new _typed2.default('.typewriter-content', {
-    strings: ['Chúng tôi đang làm việc ngày đêm...', 'Vì một thế giới tốt đẹp...', 'Vì con em chúng ta...', 'EYECARE'],
+    strings: ['Điểm qua một chút về EYECARE'],
     typeSpeed: 50,
     backSpeed: 100,
     showCursor: true,
@@ -1167,9 +1167,5 @@ document.addEventListener('DOMContentLoaded', function () {
 /* 5 */,
 /* 6 */
 /***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.js.map
