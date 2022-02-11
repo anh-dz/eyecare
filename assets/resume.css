@@ -333,13 +333,6 @@ section {
     background-color: #fff;
     color: #1261a0;
 }
-.hng__logo {
-    justify-self: center;
-    margin-bottom: 1rem;
-}
-.hng__logo img {
-    width: 400px;
-}
 .footer {
     background-color: #201c1c;
     color: #fff;
@@ -462,9 +455,6 @@ section {
     .contact__container {
         justify-items: center;
     }
-    .hng__logo img {
-        width: 500px;
-    }
 }
 @media screen and (min-width: 1024px) {
     .grid-container {
@@ -474,8 +464,5 @@ section {
     .home__img {
         width: 500px;
         right: 10%;
-    }
-    .hng__logo img {
-        width: 700px;
     }
 }
